@@ -1,0 +1,77 @@
+$font-color: #7FA061;
+
+.products-component {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .popular-products {
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+
+        color: $font-color;
+    }
+
+    .products-list {
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .product {
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            background: #F8F8F8;
+
+            position: relative;
+            padding-bottom: 30px;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+            }
+
+            .text-side {
+                padding: 10px;
+
+                * {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+
+                    color: $font-color;
+
+                }
+
+                h1 {
+                    font-size: 18px;
+
+                }
+
+                P {
+                    font-size: 14px;
+                }
+
+                svg {
+                    position: absolute;
+
+                    right: 10px;
+                    bottom: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+}

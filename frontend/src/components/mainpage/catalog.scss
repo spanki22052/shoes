@@ -1,0 +1,30 @@
+$font-color: #7FA061;
+
+.catalog {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+    .catalog-element {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+
+
+            color: $font-color;
+            margin-bottom: -5px;
+        }
+
+        img {
+            width: 375px;
+            height: 550px;
+        }
+    }
+}

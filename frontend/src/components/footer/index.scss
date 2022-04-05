@@ -1,0 +1,92 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+
+    * {
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+
+        h1 {
+            font-size: 18px;
+            font-weight: 600;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 10px;
+        }
+
+    }
+
+    .left-side {
+        width: 50%;
+        padding-left: 30px;
+
+    }
+
+    .right-side {
+        width: 50%;
+
+        h1 {
+            padding-bottom: 0;
+        }
+
+        .contact-svgs {
+            width: 70px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p {
+            padding-top: 15px;
+        }
+
+        .subscribe-input {
+            width: 175px;
+            display: flex;
+            justify-content: space-between;
+
+
+            input {
+                width: 140px;
+                height: 25px;
+                background: none;
+                border: 1px solid white;
+                padding-left: 5px;
+
+                &::placeholder {
+                    color: #d8d8d8;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                height: 25px;
+                color: white;
+                background: none;
+                border: 1px solid white;
+
+                &:hover {
+                    background: white;
+                    color: black;
+                }
+
+                &:active {
+                    background: rgb(233, 233, 233);
+                    color: rgb(38, 38, 38);
+                }
+            }
+        }
+    }
+}

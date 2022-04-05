@@ -1,0 +1,17 @@
+.mainpage {
+
+    width: 100%;
+
+    img {
+        height: 450px;
+        width: 100%;
+
+        object-fit: center;
+    }
+
+    @media screen and (max-width: 1000px) {
+        img {
+            height: 200px;
+        }
+    }
+}
